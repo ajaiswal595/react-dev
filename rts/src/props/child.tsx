@@ -1,5 +1,9 @@
-export const Child = ()=>{
+interface ChildProps {
+    color : String
+}
+
+export const Child = ({color}:ChildProps)=>{
     return (
-        <div>Hello from Child</div>
+        <div>Hello from Child Parent passes the props {color}</div>
     )
 }
