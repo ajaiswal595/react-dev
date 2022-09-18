@@ -1,4 +1,5 @@
 import ReactDom from 'react-dom'
+import Parent from './props/parent';
 
 const App = ()=>{
     return (
@@ -8,4 +9,4 @@ const App = ()=>{
     )
 }
 
-ReactDom.render(<App/>,document.querySelector('#root'));
+ReactDom.render(<Parent/>,document.querySelector('#root'));
